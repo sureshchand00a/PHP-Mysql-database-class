@@ -1,10 +1,14 @@
 # PHP-Mysql-database-class
 This lightweight database class is written with PHP and uses the PDO extension, it uses prepared statements to properly secure your queries, no need to worry about SQL injection attacks.
 
-#installation
-To use this class, first import mysqliDb.php file into your file
+# installation
+
+Config your database configuration on the file  `db.php`. 
+
+To use this class, first import `chp.php` file into your file
+
 ```php
-require_once ('MysqliDb.php');
+require_once ('chp.php');
 ```
 
 SELECT Query
